@@ -1,0 +1,116 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+/* sheard style */
+.secondari-bg{
+    background-color: #FFF8F3;
+}
+.taxt-praimari{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+
+}
+.btn-praimari{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    border: none;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-descroption{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* header*/
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+}
+
+/* nav style  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 250px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    margin: 45px;
+    
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-contant{
+    max-width: 580px;
+    
+}
+.banner-hi{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+.banner-profile-image{
+    width: 584px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.itme-description{
+    font-weight: 800;
+}
